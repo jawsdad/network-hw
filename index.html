@@ -15,6 +15,7 @@
         nav { background-color: #34495e; display: flex; justify-content: center; padding: 1rem; }
         nav a { color: white; text-decoration: none; margin: 0 2rem; font-size: 1.1rem; font-weight: bold; }
         nav a:hover { color: #3498db; } /* 마우스를 올렸을 때 색상 변경 */
+        nav a.active { color: #3498db; border-bottom: 2px solid #3498db; padding-bottom: 4px; }
 
         /* 본문 스타일 */
         .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
@@ -31,8 +32,9 @@
     </header>
 
     <nav>
-        <a href="index.html">About Me</a>
+        <a href="index.html" class="active">About Me</a>
         <a href="projects.html">Projects</a>
+        <a href="photo.html">Photos</a>
         <a href="contact.html">Contact</a>
     </nav>
 
