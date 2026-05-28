@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트 - 내 소개 페이지</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; line-height: 1.6; }
+        header { background-color: #2c3e50; color: white; padding: 3rem 2rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        nav { background-color: #34495e; display: flex; justify-content: center; padding: 1rem; }
+        nav a { color: white; text-decoration: none; margin: 0 2rem; font-size: 1.1rem; font-weight: bold; }
+        nav a:hover { color: #3498db; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        section { background: white; padding: 2.5rem; margin-bottom: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; margin-top: 0; }
+        .project-item { margin-bottom: 1.5rem; border-left: 4px solid #3498db; padding-left: 1rem; }
+        .project-item h3 { margin: 0 0 0.5rem 0; color: #34495e; }
+        .project-item p { margin: 0; color: #555; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>My Projects</h2>
+            <div class="project-item">
+                <h3>자율주행 선박 네비게이션 프로젝트</h3>
+                <p>Velodyne LiDAR와 IMU 센서를 활용하여 자율운항 선박의 하드웨어 제어 및 센서 데이터를 처리하는 시스템을 구축했습니다.</p>
+            </div>
+            <div class="project-item">
+                <h3>Crazy Driver 3D</h3>
+                <p>Python Ursina 엔진을 활용하여 1인칭/3인칭 시점 전환과 니트로 기능이 포함된 3D 자동차 추격 게임을 기획 및 개발했습니다.</p>
+            </div>
+            <div class="project-item">
+                <h3>업무 자동화 워크스페이스 런처</h3>
+                <p>대학 e-class 자동 로그인과 VS Code, Gemini 등 작업 환경을 한 번에 세팅해 주는 파이썬 매크로를 제작했습니다.</p>
+            </div>
+            <div class="project-item">
+                <h3>시각 디자인 및 홍보 포스터 제작</h3>
+                <p>홍보 포스터를 기획하고 디자인했습니다.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

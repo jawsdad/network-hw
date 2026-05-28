@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 소개 페이지 - 홈</title>
+    <style>
+        /* 기본 스타일 */
+        body { font-family: 'Pretendard', sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; line-height: 1.6; }
+        header { background-color: #2c3e50; color: white; padding: 3rem 2rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; margin-top: 0.5rem; color: #ecf0f1; }
+        
+        /* 네비게이션 바 (메뉴) 스타일 */
+        nav { background-color: #34495e; display: flex; justify-content: center; padding: 1rem; }
+        nav a { color: white; text-decoration: none; margin: 0 2rem; font-size: 1.1rem; font-weight: bold; }
+        nav a:hover { color: #3498db; } /* 마우스를 올렸을 때 색상 변경 */
+
+        /* 본문 스타일 */
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        section { background: white; padding: 2.5rem; margin-bottom: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; margin-top: 0; }
+        .skills-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .skills-list li { background: #e8f4fd; color: #2980b9; padding: 0.5rem 1rem; border-radius: 20px; font-weight: bold; }
+    </style>
 </head>
 <body>
-    <h1>나의 첫 홈페이지</h1>
-    <p>안녕하세요! 홈페이지 만들기 테스트 중입니다.</p>
+    <header>
+        <h1>자기소개</h1>
+        <p>이름: 박성환 | 학번: 2025111777 | 전공: 미래자동차학과 | 자율주행 & 로보틱스 엔지니어링</p>
+    </header>
+
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>안녕하세요! 미래자동차공학을 전공하고 있는 박성환입니다. 자율주행 기술, 하드웨어 제어, 그리고 3D 게임 개발 등 다양한 분야를 탐구하며 즐겁게 코딩하고 있습니다. 일상의 불편함을 코드로 자동화하고, 새로운 아이디어를 직접 구현해내는 과정을 좋아합니다.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>ROS</li>
+                <li>Arduino</li>
+                <li>Ursina Engine</li>
+                <li>HTML/CSS</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
